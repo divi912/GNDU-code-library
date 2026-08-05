@@ -1,0 +1,252 @@
+[
+  {
+    "id": "learnvern",
+    "name": "LearnVern",
+    "programmingLanguage": "General",
+    "type": "Website",
+    "addedAt": "2026-08-05",
+    "url": "https://www.learnvern.com/"
+  },
+  {
+    "id": "programiz",
+    "name": "Programiz",
+    "programmingLanguage": "General",
+    "type": "Website",
+    "addedAt": "2026-08-05",
+    "url": "https://www.programiz.com/"
+  },
+  {
+    "id": "w3schools",
+    "name": "W3Schools",
+    "programmingLanguage": "General",
+    "type": "Website",
+    "addedAt": "2026-08-05",
+    "url": "https://www.w3schools.com/"
+  },
+  {
+    "id": "geeksforgeeks",
+    "name": "GeeksforGeeks",
+    "programmingLanguage": "General",
+    "type": "Website",
+    "addedAt": "2026-08-05",
+    "url": "https://www.geeksforgeeks.org/"
+  },
+  {
+    "id": "freecodecamp",
+    "name": "FreeCodeCamp",
+    "programmingLanguage": "General",
+    "type": "Website",
+    "addedAt": "2026-08-05",
+    "url": "https://www.freecodecamp.org/"
+  },
+  {
+    "id": "the-odin-project",
+    "name": "The Odin Project",
+    "programmingLanguage": "General",
+    "type": "Website",
+    "addedAt": "2026-08-05",
+    "url": "https://www.theodinproject.com/"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "programmingLanguage": "General",
+    "type": "AI Tool",
+    "addedAt": "2026-08-05",
+    "url": "https://chatgpt.com/"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "description": "Good for researching.",
+    "programmingLanguage": "General",
+    "type": "AI Tool",
+    "addedAt": "2026-08-05",
+    "url": "https://grok.com/"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "description": "Best for debugging and accurate logical results.",
+    "programmingLanguage": "General",
+    "type": "AI Tool",
+    "addedAt": "2026-08-05",
+    "url": "https://claude.ai/"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "programmingLanguage": "General",
+    "type": "AI Tool",
+    "addedAt": "2026-08-05",
+    "url": "https://www.perplexity.ai/"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "programmingLanguage": "General",
+    "type": "AI Tool",
+    "addedAt": "2026-08-05",
+    "url": "https://gemini.google.com/"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "programmingLanguage": "General",
+    "type": "AI Tool",
+    "addedAt": "2026-08-05",
+    "url": "https://github.com/features/copilot"
+  },
+  {
+    "id": "antigravity",
+    "name": "Antigravity",
+    "programmingLanguage": "General",
+    "type": "AI Tool",
+    "addedAt": "2026-08-05",
+    "url": "https://antigravity.google/"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "programmingLanguage": "General",
+    "type": "AI Tool",
+    "addedAt": "2026-08-05",
+    "url": "https://opencode.ai/"
+  },
+  {
+    "id": "bro-code-channel",
+    "name": "Bro Code",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UC4SVo0Ue36XCfOyb5Lh1viQ"
+  },
+  {
+    "id": "freecodecamp-channel",
+    "name": "FreeCodeCamp",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+  },
+  {
+    "id": "programming-with-mosh-channel",
+    "name": "Programming with Mosh",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA"
+  },
+  {
+    "id": "tech-with-tim-channel",
+    "name": "Tech with Tim",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg"
+  },
+  {
+    "id": "code-with-harry-channel",
+    "name": "Code with Harry",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww"
+  },
+  {
+    "id": "apna-college-channel",
+    "name": "Apna College",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCBwmMxybNva6P_5VmxjzwqA"
+  },
+  {
+    "id": "chai-aur-code-channel",
+    "name": "Chai aur Code / Hitesh Choudhary",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCNQ6FEtztATuaVhZKCY28Yw"
+  },
+  {
+    "id": "piyush-garg-channel",
+    "name": "Piyush Garg",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCf9T51_FmMlfhiGpoes0yFA"
+  },
+  {
+    "id": "super-simple-dev-channel",
+    "name": "Super Simple Dev",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCB6dvaWu0N8uVq2yKsZ5s5g"
+  },
+  {
+    "id": "slaying-the-dragon-channel",
+    "name": "Slaying the Dragon",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCNG1I_kw2p3evITFIBX_2zA"
+  },
+  {
+    "id": "dave-gray-channel",
+    "name": "Dave Gray",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCY38RvRIxYODO4penyxUwTg"
+  },
+  {
+    "id": "web-dev-mastery-channel",
+    "name": "Web Dev Mastery",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCQVE2WU-h_dszY5If6oFvFg"
+  },
+  {
+    "id": "neeraj-walia-channel",
+    "name": "Neeraj Walia",
+    "programmingLanguage": "General",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCrmsp2voP5agAXWHvEPvxsg"
+  },
+  {
+    "id": "abdul-bari-dsa-channel",
+    "name": "Abdul Bari",
+    "programmingLanguage": "DSA",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw"
+  },
+  {
+    "id": "striver-dsa-channel",
+    "name": "Striver (Take U Forward)",
+    "programmingLanguage": "DSA",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCJskGeByzRRSvmOyZOz61ig"
+  },
+  {
+    "id": "love-babbar-dsa-channel",
+    "name": "Love Babbar",
+    "programmingLanguage": "DSA",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UCQHLxxBFrbfdrk1jF0moTpw"
+  },
+  {
+    "id": "geeksforgeeks-dsa-channel",
+    "name": "GeeksforGeeks",
+    "programmingLanguage": "DSA",
+    "type": "YouTube Channel",
+    "addedAt": "2026-08-05",
+    "url": "https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ"
+  }
+]
