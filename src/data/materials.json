@@ -248,5 +248,12 @@
     "type": "YouTube Channel",
     "addedAt": "2026-08-05",
     "url": "https://www.youtube.com/channel/UC0RhatS1pyxInC00YKjjBqQ"
-  }
+  },
+  {
+    "id": "edabit",
+    "name": "Edabit",
+    "programmingLanguage": "Challenges",
+    "type": "Website",
+    "addedAt": "2026-08-05",
+    "url": "https://edabit.com/challenges"
 ]
