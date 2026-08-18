@@ -3,23 +3,27 @@ import ResourceIcon from './ResourceIcon.jsx'
 
 export default function ResourceList({ resources }) {
   return (
-    <div className="compact-resource-list">
+    <div className="resource-grid">
       {resources.map((resource) => (
-        <article className="compact-resource" key={resource.renderKey}>
-          <ResourceIcon resource={resource} />
-          <div className="resource-summary">
+        <article className="resource-card" key={resource.renderKey}>
+          <div className="resource-card-topline">
+            <ResourceIcon resource={resource} />
+            <span className="resource-kind">{resource.type}</span>
+          </div>
+          <div className="resource-card-content">
             <h3>{resource.name}</h3>
-            <p className="resource-meta">{resource.type} · {resource.programmingLanguage}</p>
+            <p className="resource-meta">{resource.programmingLanguage}</p>
             {resource.hasDescription && <p className="resource-description">{resource.description}</p>}
           </div>
-          {resource.materialUrl ? (
-            <div className="compact-actions">
-              {resource.isDocument ? (
-                <a href={resource.materialUrl} download aria-label={`Download ${resource.name}`}>
+          <div className="resource-card-footer">
+            {resource.materialUrl ? (
+              resource.isDocument ? (
+                <a className="resource-action" href={resource.materialUrl} download aria-label={`Download ${resource.name}`}>
                   <span>Download</span><ArrowDownToLine size={16} aria-hidden="true" />
                 </a>
               ) : (
                 <a
+                  className="resource-action"
                   href={resource.materialUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -27,11 +31,11 @@ export default function ResourceList({ resources }) {
                 >
                   <span>{resource.actionLabel}</span><ArrowUpRight size={16} aria-hidden="true" />
                 </a>
-              )}
-            </div>
-          ) : (
-            <span className="unavailable">Unavailable</span>
-          )}
+              )
+            ) : (
+              <span className="unavailable">Unavailable</span>
+            )}
+          </div>
         </article>
       ))}
     </div>

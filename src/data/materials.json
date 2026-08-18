@@ -272,5 +272,37 @@
     "type": "Website",
     "addedAt": "2026-08-11",
     "url": "https://roadmap.sh"
+  },
+  {
+    "id": "c-cheat-sheet",
+    "name": "C Cheat Sheet",
+    "description": "A practical reference for C syntax, operators, control flow, functions, pointers, and common library features.",
+    "programmingLanguage": "C",
+    "type": "PDF",
+    "addedAt": "2026-08-18"
+  },
+  {
+    "id": "cpp-cheat-sheet",
+    "name": "C++ Cheat Sheet",
+    "description": "A concise C++ reference covering core syntax, object-oriented programming, templates, and standard library essentials.",
+    "programmingLanguage": "C++",
+    "type": "PDF",
+    "addedAt": "2026-08-18"
+  },
+  {
+    "id": "ultimate-c-handbook",
+    "name": "The Ultimate C Handbook",
+    "description": "A beginner-friendly handbook for learning C fundamentals, program structure, functions, arrays, and pointers.",
+    "programmingLanguage": "C",
+    "type": "PDF",
+    "addedAt": "2026-08-18"
+  },
+  {
+    "id": "python-crash-course-cheat-sheets",
+    "name": "Python Crash Course Cheat Sheets",
+    "description": "A collection of beginner reference sheets for Python syntax, data structures, functions, classes, testing, and projects.",
+    "programmingLanguage": "Python",
+    "type": "PDF",
+    "addedAt": "2026-08-18"
   }
 ]

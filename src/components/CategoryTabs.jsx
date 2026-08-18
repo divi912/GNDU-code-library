@@ -1,5 +1,4 @@
 const categories = [
-  ['all', 'All'],
   ['materials', 'Study Materials'],
   ['links', 'Websites & Tools'],
   ['channels', 'Video Channels'],

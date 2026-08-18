@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FileText } from 'lucide-react'
+import { FileText, Globe2, Sparkles } from 'lucide-react'
 import {
   siC,
   siCplusplus,
@@ -52,6 +52,11 @@ export default function ResourceIcon({ resource, compact = false }) {
   }
 
   if (['Website', 'AI Tool'].includes(resource.type)) {
+    if (imageFailed) {
+      const FallbackIcon = resource.type === 'AI Tool' ? Sparkles : Globe2
+      return <span className={className} aria-hidden="true"><FallbackIcon size={20} /></span>
+    }
+
     return (
       <span className={className} aria-hidden="true">
         <img

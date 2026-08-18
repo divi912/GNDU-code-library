@@ -32,12 +32,10 @@ export default function App() {
   const [language, setLanguage] = useState('all')
   const [type, setType] = useState('all')
   const [sort, setSort] = useState('newest')
-  const [category, setCategory] = useState('all')
+  const [category, setCategory] = useState('materials')
 
   const categoryMaterials = useMemo(
-    () => category === 'all'
-      ? materials
-      : materials.filter((item) => item.resourceCategory === category),
+    () => materials.filter((item) => item.resourceCategory === category),
     [category],
   )
   const languages = useMemo(
@@ -64,7 +62,7 @@ export default function App() {
           .some((value) => value.toLocaleLowerCase().includes(normalizedSearch))
         const matchesLanguage = language === 'all' || material.programmingLanguage === language
         const matchesType = type === 'all' || material.type === type
-        const matchesCategory = category === 'all' || material.resourceCategory === category
+        const matchesCategory = material.resourceCategory === category
 
         return matchesSearch && matchesLanguage && matchesType && matchesCategory
       })
@@ -81,7 +79,6 @@ export default function App() {
     setSearch('')
     setLanguage('all')
     setType('all')
-    setCategory('all')
   }
 
   return (
@@ -131,12 +128,6 @@ export default function App() {
                 : <ResourceList resources={visibleMaterials} />)
             : <EmptyState onClear={clearControls} />}
 
-          {category === 'links' && (
-            <aside className="directory-note">
-              <strong>Disclaimer</strong>
-              <p>AI is just a tool. Use it for help, not for solving whole programs or questions.</p>
-            </aside>
-          )}
           {category === 'channels' && (
             <aside className="directory-note">
               <strong>Note</strong>

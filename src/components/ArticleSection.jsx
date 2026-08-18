@@ -7,7 +7,7 @@ export default function ArticleSection() {
         <details className="article-details">
           <summary className="article-heading">
             <span className="eyebrow">From the GNDU coding community</span>
-            <span id="article-title" className="article-title" role="heading" aria-level="2">Ultimate Begginer Guide to Coding</span>
+            <span id="article-title" className="article-title" role="heading" aria-level="2">Ultimate Beginner Guide to Coding</span>
             <span className="article-subtitle">Advice and perspective for starting your coding journey.</span>
             <span className="article-toggle">Read article</span>
           </summary>
